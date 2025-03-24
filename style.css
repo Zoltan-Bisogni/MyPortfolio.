@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+a{
+    color: #c4c4c4;
+    text-decoration: none;
+}
 *{
     padding: 0;
     margin: 0;
@@ -47,10 +51,10 @@ header .navigation{
 }
 
 header .navigation a{
-    color: #FFFFF0;
+    color: #ffffff;
     font-size: 1em;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: bolder;
     margin-left: 30px;
 }
 
@@ -84,7 +88,7 @@ section{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.271);
 }
 
 .main .content{
@@ -111,7 +115,7 @@ section{
 .animated-text h3{
     color: #D66853;
     font-size: 3em;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 70px;
     letter-spacing: 1px;
 }
@@ -548,14 +552,16 @@ section{
     color: #fff;
     background: #7D4E57;
     display: inline-block;
-    font-size: 1.1em;
-    font-weight: 500;
+    font-size: 1.4em;
+    font-weight: bolder;
     text-transform: uppercase;
     letter-spacing: 2px;
     width: 100%;
     border: none;
     cursor: pointer;
     transition: 0.5s ease;
+    border-radius: 25px;
+    height: 50px;
   }
   
   .contact-form .input-box .send-btn:hover{
@@ -649,7 +655,7 @@ section{
 
     .menu-btn.active{
         z-index: 999;
-        background-image: url(Image/close.png);
+        
         background-repeat: no-repeat;
         background-position: center;
         background-size: 25px;
@@ -725,4 +731,3 @@ section{
     opacity: 0;
     transition: all 0.3s ease;
   }
-
